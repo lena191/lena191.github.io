@@ -1,0 +1,37 @@
+body {
+    background-color: #A731DE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Menu de navigation */
+nav {
+    background-color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* menu centré */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* liens en noir */
+    font-weight: bold;
+}
+
+/* Texte */
+p {
+    width: 60%;
+    margin: 20px auto;
+}
